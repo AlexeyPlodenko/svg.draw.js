@@ -1,7 +1,7 @@
 {
-  "name": "@svgdotjs/svg.draw.js",
-  "version": "3.0.0",
-  "description": "An extension for svg.js which allows to draw elements with mouse",
+  "name": "svgdotjs-svg3.draw.js",
+  "version": "3.0.2",
+  "description": "An extension for svg.js (v3 compatible) which allows to draw elements with mouse",
   "main": "dist/svg.draw.js",
   "unpkg": "dist/svg.draw.min.js",
   "jsdelivr": "dist/svg.draw.min.js",
@@ -37,7 +37,7 @@
     "lint": "npx eslint ./src",
     "rollup": "npx rollup -c .config/rollup.config.js",
     "zip": "zip -j dist/svg.draggable.js.zip -- LICENSE README.md dist/svg.draggable.js dist/svg.draggable.js.map dist/svg.draggable.min.js dist/svg.draggable.min.js.map",
-    "prepublishOnly": "rm -rf ./dist && npm run build",
+    "prepublishOnly": "npm run build",
     "postpublish": "npm run zip",
     "format": "prettier-standard --format"
   },

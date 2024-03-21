@@ -1,7 +1,9 @@
 svg.draw.js
 ===========
 
-An extension of [svg.js](https://github.com/svgdotjs/svg.js), which allows to draw elements with your mouse
+An extension of [svg.js](https://github.com/svgdotjs/svg.js), which allows to draw elements with your mouse.
+
+This fork was crafted by [plungingChode](https://github.com/plungingChode/svg.draw.js) and allows to run the svg.draw.js plugin on the [svg.js](https://github.com/svgdotjs/svg.js)version 3.
 
 # Demo
 
